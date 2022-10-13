@@ -1,5 +1,5 @@
 .index{
-    background-color: blue;
+    background-color: rgb(251, 255, 0);
 }
 
 .newsletter{
@@ -13,4 +13,47 @@
 h1{
     display: flex;
     justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: seagreen;
+    padding: 1em;
+    gap: 1em;
+    border-style: dotted;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container{
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        flex-direction: row;
+    }
+    
 }
