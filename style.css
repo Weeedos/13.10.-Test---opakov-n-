@@ -1,5 +1,5 @@
 .index{
-    background-color: rgb(251, 255, 0);
+    background-color: white;
     font-family: 'Courier New';
 }
 
@@ -13,9 +13,24 @@
     font-family: 'Times New Roman';
 }
 
+ul{
+    display: flex;
+    background-color: chocolate;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2em;
+}
+footer{
+    background-color: chocolate;
+}
+
 h1{
     display: flex;
     justify-content: center;
+}
+
+table{
+    border-style: dotted;
 }
 
 .container{
@@ -30,7 +45,7 @@ h1{
 
 .grid-container{
     display: grid;
-    background-color: slateblue;
+    background-color: white;
     padding: 1em;
     gap: 1em;
     border-style: double;
@@ -49,7 +64,7 @@ h1{
 }
 
 .item-d{
-    color: yellow;
+    color: black;
 }
 
 .item-e{
