@@ -25,6 +25,14 @@ h1{
     border-style: dotted;
 }
 
+.grid-container{
+    display: grid;
+    background-color: slateblue;
+    padding: 1em;
+    gap: 1em;
+    border-style: double;
+}
+
 @media only screen and (max-width: 600px) {
     .container{
         flex-direction: column;
