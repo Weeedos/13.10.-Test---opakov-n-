@@ -36,6 +36,30 @@ h1{
     border-style: double;
 }
 
+.item-a{
+    color: red;
+}
+
+.item-b{
+    color: blue;
+}
+
+.item-c{
+    color: green;
+}
+
+.item-d{
+    color: yellow;
+}
+
+.item-e{
+    color: orange;
+}
+
+.item-f{
+    color: purple;
+}
+
 @media only screen and (max-width: 600px) {
     .container{
         flex-direction: column;
