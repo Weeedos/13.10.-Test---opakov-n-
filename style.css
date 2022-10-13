@@ -1,13 +1,16 @@
 .index{
     background-color: rgb(251, 255, 0);
+    font-family: 'Courier New';
 }
 
 .newsletter{
     background-color: green;
+    font-family: 'Arial';
 }
 
 .aboutus{
     background-color: red;
+    font-family: 'Times New Roman';
 }
 
 h1{
