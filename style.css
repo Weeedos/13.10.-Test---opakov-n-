@@ -1,3 +1,15 @@
+.index{
+    background-color: blue;
+}
+
+.newsletter{
+    background-color: green;
+}
+
+.aboutus{
+    background-color: red;
+}
+
 h1{
     display: flex;
     justify-content: center;
